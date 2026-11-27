@@ -6,7 +6,9 @@ print("This is the next sentence.")
 print(1)
 print(1+1)
 print(1*3)
-print(8/2)
+print(int(8/2)) # Need to be converted to integer or it defaults to a decimal
+
+print("I have been looking for work for", 10000, "years.") # Adds spaces automatically
 
 # Read = default setting for open
 # Text = default setting for open
