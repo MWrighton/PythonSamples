@@ -1,5 +1,13 @@
 print('Hello World')
 
+print("This will be concatonated with the next sentence without making a new line.", end=" STOP ")
+print("This is the next sentence.")
+
+print(1)
+print(1+1)
+print(1*3)
+print(8/2)
+
 # Read = default setting for open
 # Text = default setting for open
 # No need to specify
