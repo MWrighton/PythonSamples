@@ -13,7 +13,7 @@ print("This is the next sentence.")
 print(1)
 print(1+1)
 print(1*3)
-print(int(8/2)) # Need to be converted to integer or it defaults to a decimal
+print(int(8/2)) # Needs to be converted to an integer or it defaults to a decimal
 
 print("I have been looking for work for", 10000, "years.") # Adds spaces automatically
 
@@ -62,3 +62,17 @@ if os.path.exists("NewFile.txt"):
   os.remove("NewFile.txt")
 else:
   print("404 - file not found")
+
+# Variables don't have any special declaration in Python
+variable1 = 1
+variableName = "Luke"
+
+print(variable1)
+print(str(variable1))
+print(int(variable1))
+print(float(variable1))
+
+variable2 = 2
+print(type(str(variable1)))
+print(type(int(variable1)))
+print(type(float(variable1)))
