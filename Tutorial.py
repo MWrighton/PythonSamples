@@ -1,3 +1,10 @@
+"""
+This is practice file
+In which to learn Python
+Here is a multiline comment.
+"""
+# Here is a single line comment
+
 print('Hello World')
 
 print("This will be concatonated with the next sentence without making a new line.", end=" STOP ")
